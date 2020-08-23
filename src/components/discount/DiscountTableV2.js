@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Pagination, Table } from 'semantic-ui-react'
+import { Pagination, Table, Icon } from 'semantic-ui-react'
 
 class DiscountTableV2 extends Component {
 
@@ -14,17 +14,17 @@ class DiscountTableV2 extends Component {
     renderRows = (couponDetails) => {
         return (
             couponDetails['coupons'].map((coupon, index) => {
-                if (index >= (this.state.activePage - 1) * 5 && index < (this.state.activePage) * 5) {
+                if (index >= (this.state.activePage - 1) * 10 && index < (this.state.activePage) * 10) {
                     console.log("am i here??")
                     return coupon['couponStatus'] === 'REDEEMED' ? <Table.Row negative>
-                        <Table.Cell>{coupon['couponCode']}</Table.Cell>
-                        <Table.Cell>{coupon['couponType']}</Table.Cell>
-                        <Table.Cell>{coupon['couponStatus']}</Table.Cell>
+                        <Table.Cell>{coupon['couponCode'].trim()}</Table.Cell>
+                        <Table.Cell >{coupon['couponType'].trim()}</Table.Cell>
+                        <Table.Cell>{coupon['couponStatus'].trim()}</Table.Cell>
                         <Table.Cell>share</Table.Cell>
                     </Table.Row> : <Table.Row positive>
-                            <Table.Cell>{coupon['couponCode']}</Table.Cell>
-                            <Table.Cell>{coupon['couponType']}</Table.Cell>
-                            <Table.Cell>{coupon['couponStatus']}</Table.Cell>
+                            <Table.Cell>{coupon['couponCode'].trim()}</Table.Cell>
+                            <Table.Cell>{coupon['couponType'].trim()}</Table.Cell>
+                            <Table.Cell>{coupon['couponStatus'].trim()}</Table.Cell>
                             <Table.Cell>share</Table.Cell>
                         </Table.Row>
                 }
@@ -39,7 +39,8 @@ class DiscountTableV2 extends Component {
 
     render() {
         return (
-            <Table celled sortable=''>
+            <div>
+            <Table celled padded>
                 <Table.Header>
                     <Table.Row>
                         <Table.HeaderCell>Coupon Code</Table.HeaderCell>
@@ -52,11 +53,11 @@ class DiscountTableV2 extends Component {
                 <Table.Body>
                     {this.renderRows(this.props.couponDetails)}
                 </Table.Body>
-
-                <Table.Footer>
-                    <Pagination activePage={this.state.activePage} totalPages={this.props.couponDetails['coupons'].length / 5} onPageChange={this.pageChangeHandler} ></Pagination>
-                </Table.Footer>
             </Table>
+            <Pagination ellipsisItem={{ content: <Icon name='ellipsis horizontal' />, icon: true }} 
+            activePage={this.state.activePage} totalPages={this.props.couponDetails['coupons'].length / 10} onPageChange={this.pageChangeHandler} ></Pagination>
+            </div>
+            
         )
     }
 }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Input, Menu, Segment, Statistic, Header } from 'semantic-ui-react'
-import DiscountTable from './DiscountTable'
+import { Responsive, Input, Menu, Segment, Statistic, Header, Dropdown } from 'semantic-ui-react'
 import DiscountTableV2 from './DiscountTableV2'
 
 class Discount extends Component {
@@ -17,57 +16,62 @@ class Discount extends Component {
                     "coupons": [
                         {
                             "couponCode": "J-1",
-                            "couponType": "Jewellery-Type-1",
+                            "couponType": "JT-1",
                             "couponStatus": "REDEEMED"
                         },
                         {
                             "couponCode": "J-2",
-                            "couponType": "Jewellery-Type-2",
+                            "couponType": "JT-2",
                             "couponStatus": "AVAILABLE"
                         },
                         {
                             "couponCode": "J-3",
-                            "couponType": "Jewellery-Type-2",
+                            "couponType": "JT-2",
                             "couponStatus": "AVAILABLE"
                         },
                         {
                             "couponCode": "J-4",
-                            "couponType": "Jewellery-Type-2",
+                            "couponType": "JT-2",
                             "couponStatus": "AVAILABLE"
                         },
                         {
                             "couponCode": "J-5",
-                            "couponType": "Jewellery-Type-2",
+                            "couponType": "JT-2",
                             "couponStatus": "AVAILABLE"
                         },
                         {
                             "couponCode": "J-6",
-                            "couponType": "Jewellery-Type-2",
+                            "couponType": "JT-2",
                             "couponStatus": "AVAILABLE"
                         },
                         {
                             "couponCode": "J-7",
-                            "couponType": "Jewellery-Type-2",
+                            "couponType": "JT-2",
                             "couponStatus": "AVAILABLE"
                         },
                         {
                             "couponCode": "J-8",
-                            "couponType": "Jewellery-Type-2",
+                            "couponType": "JT-2",
                             "couponStatus": "AVAILABLE"
                         },
                         {
                             "couponCode": "J-9",
-                            "couponType": "Jewellery-Type-2",
+                            "couponType": "JT-2",
                             "couponStatus": "AVAILABLE"
                         },
                         {
                             "couponCode": "J-10",
-                            "couponType": "Jewellery-Type-2",
+                            "couponType": "JT-2",
                             "couponStatus": "AVAILABLE"
                         },
                         {
                             "couponCode": "J-11",
-                            "couponType": "Jewellery-Type-2",
+                            "couponType": "JT-2",
+                            "couponStatus": "AVAILABLE"
+                        },
+                        {
+                            "couponCode": "J-12",
+                            "couponType": "JT-2",
                             "couponStatus": "AVAILABLE"
                         }
                     ]
@@ -102,7 +106,7 @@ class Discount extends Component {
             />)
         })
     }
-
+ 
     render() {
         return (
             <div>

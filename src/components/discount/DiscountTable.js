@@ -35,7 +35,7 @@ function DiscountTable(props) {
             </Table.Body>
 
             <Table.Footer>
-                <Pagination activePage={1} totalPages={props.couponDetails['coupons'].length/10}></Pagination>
+                <Pagination activePage={1} totalPages={props.couponDetails['coupons'].length/10} onPageChange></Pagination>
             </Table.Footer>
         </Table>
     )
