@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Input, Menu, Segment } from 'semantic-ui-react'
+import { Input, Menu, Segment, Statistic, Header } from 'semantic-ui-react'
 import DiscountTable from './DiscountTable'
 import DiscountTableV2 from './DiscountTableV2'
 
@@ -12,7 +12,7 @@ class Discount extends Component {
             data: [
                 {
                     "businessUnit": "Jewellery",
-                    "availableCoupons": 11,
+                    "availableCoupons": 10,
                     "redeemedCoupons": 1,
                     "coupons": [
                         {
@@ -74,7 +74,7 @@ class Discount extends Component {
                 },
                 {
                     "businessUnit": "Eyeware",
-                    "availableCoupons": 20,
+                    "availableCoupons": 0,
                     "redeemedCoupons": 1,
                     "coupons": [
                         {
@@ -106,10 +106,13 @@ class Discount extends Component {
     render() {
         return (
             <div>
+                <Header size="huge">DISCOUNT COUPONS</Header>
                 <Menu attached='top' tabular>
                     {this.renderDiscountTypes()}
                 </Menu>
                 <Segment attached='bottom'>
+                    <Statistic label='Available' value={this.state.data[this.state.activeIndex]['availableCoupons']} color='green'/>
+                    <Statistic label='Redeemed' value={this.state.data[this.state.activeIndex]['redeemedCoupons']} color='red'/>
                     <DiscountTableV2 couponDetails={this.state.data[this.state.activeIndex]}></DiscountTableV2>
                 </Segment>
             </div>
