@@ -14,17 +14,17 @@ class AppMenu extends Component {
       <Grid>
         <Grid.Column width={4}>
           <Menu fluid vertical tabular>
-            <Menu.Item
+            <Menu.Item 
               name='Clearance'
               active={activeItem === 'Clearance'}
               onClick={this.handleItemClick}
             />
             <Menu.Item
-              name='pics'
-              active={activeItem === 'pics'}
+              name='Discount'
+              active={activeItem === 'Discount'}
               onClick={this.handleItemClick}
             />
-            <Menu.Item
+            <Menu.Item 
               name='companies'
               active={activeItem === 'companies'}
               onClick={this.handleItemClick}

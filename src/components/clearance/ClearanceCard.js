@@ -38,7 +38,7 @@ function ClearanceCard(props) {
                     size='mini'
                     src={getImg(props.clearanceType)}
                 />
-                <Card.Header> {props.clearanceType.toUpperCase()} </Card.Header>
+                <Card.Header > {props.clearanceType.toUpperCase()} </Card.Header>
                 <Card.Description>
                     Clearances that are given by {props.clearanceType} Team
                 </Card.Description>

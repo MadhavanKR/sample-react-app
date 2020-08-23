@@ -27,7 +27,7 @@ const renderTableRows = (clearanceList) => {
 
 function ClearanceTable(props) {
     return (
-        <Table celled padded>
+        <Table celled padded >
             <Table.Header>
                 <Table.Row>
                     <Table.HeaderCell singleLine>Clearance</Table.HeaderCell>
