@@ -1,27 +1,30 @@
 {
   "files": {
     "main.css": "/sample-react-app/static/css/main.5f361e03.chunk.css",
-    "main.js": "/sample-react-app/static/js/main.2d3396f8.chunk.js",
-    "main.js.map": "/sample-react-app/static/js/main.2d3396f8.chunk.js.map",
+    "main.js": "/sample-react-app/static/js/main.00f7d0c1.chunk.js",
+    "main.js.map": "/sample-react-app/static/js/main.00f7d0c1.chunk.js.map",
     "runtime-main.js": "/sample-react-app/static/js/runtime-main.d2ec73d0.js",
     "runtime-main.js.map": "/sample-react-app/static/js/runtime-main.d2ec73d0.js.map",
     "static/css/2.333bf30c.chunk.css": "/sample-react-app/static/css/2.333bf30c.chunk.css",
-    "static/js/2.b1b027ca.chunk.js": "/sample-react-app/static/js/2.b1b027ca.chunk.js",
-    "static/js/2.b1b027ca.chunk.js.map": "/sample-react-app/static/js/2.b1b027ca.chunk.js.map",
+    "static/js/2.87e28055.chunk.js": "/sample-react-app/static/js/2.87e28055.chunk.js",
+    "static/js/2.87e28055.chunk.js.map": "/sample-react-app/static/js/2.87e28055.chunk.js.map",
     "index.html": "/sample-react-app/index.html",
-    "precache-manifest.219293e9bc8c7a73a7027d19e24f1548.js": "/sample-react-app/precache-manifest.219293e9bc8c7a73a7027d19e24f1548.js",
+    "precache-manifest.baa5c6d3b24e8628dc7a87ebbebba726.js": "/sample-react-app/precache-manifest.baa5c6d3b24e8628dc7a87ebbebba726.js",
     "service-worker.js": "/sample-react-app/service-worker.js",
     "static/css/2.333bf30c.chunk.css.map": "/sample-react-app/static/css/2.333bf30c.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/sample-react-app/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.b1b027ca.chunk.js.LICENSE.txt": "/sample-react-app/static/js/2.b1b027ca.chunk.js.LICENSE.txt",
+    "static/js/2.87e28055.chunk.js.LICENSE.txt": "/sample-react-app/static/js/2.87e28055.chunk.js.LICENSE.txt",
+    "static/media/arkham.jpg": "/sample-react-app/static/media/arkham.7c58c781.jpg",
     "static/media/semantic.min.css": "/sample-react-app/static/media/outline-icons.ef60a4f6.woff",
-    "static/media/logo.svg": "/sample-react-app/static/media/logo.5d5d9eef.svg"
+    "static/media/daily_planet.webp": "/sample-react-app/static/media/daily_planet.73df603c.webp",
+    "static/media/logo.svg": "/sample-react-app/static/media/logo.5d5d9eef.svg",
+    "static/media/wayne_enterprise.jpg": "/sample-react-app/static/media/wayne_enterprise.042b935b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d2ec73d0.js",
     "static/css/2.333bf30c.chunk.css",
-    "static/js/2.b1b027ca.chunk.js",
+    "static/js/2.87e28055.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.2d3396f8.chunk.js"
+    "static/js/main.00f7d0c1.chunk.js"
   ]
 }

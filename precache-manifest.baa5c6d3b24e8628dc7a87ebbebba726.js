@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33e0ec789e82a796b3db05f45559c016",
+    "revision": "90e938bde4a925bed67681a7b25efe00",
     "url": "/sample-react-app/index.html"
   },
   {
-    "revision": "5984e0bfc940849c63d6",
+    "revision": "ed1b5c8c87772dab6b33",
     "url": "/sample-react-app/static/css/2.333bf30c.chunk.css"
   },
   {
-    "revision": "897600c073e5d4296278",
+    "revision": "d0b7b897b069471a00af",
     "url": "/sample-react-app/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "5984e0bfc940849c63d6",
-    "url": "/sample-react-app/static/js/2.b1b027ca.chunk.js"
+    "revision": "ed1b5c8c87772dab6b33",
+    "url": "/sample-react-app/static/js/2.87e28055.chunk.js"
   },
   {
     "revision": "5bd09eb7f2cf4d145d532d862be18942",
-    "url": "/sample-react-app/static/js/2.b1b027ca.chunk.js.LICENSE.txt"
+    "url": "/sample-react-app/static/js/2.87e28055.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "897600c073e5d4296278",
-    "url": "/sample-react-app/static/js/main.2d3396f8.chunk.js"
+    "revision": "d0b7b897b069471a00af",
+    "url": "/sample-react-app/static/js/main.00f7d0c1.chunk.js"
   },
   {
     "revision": "1eac34ddf3236fef65c3",
     "url": "/sample-react-app/static/js/runtime-main.d2ec73d0.js"
+  },
+  {
+    "revision": "7c58c781db616617c52bbfed3b491b1d",
+    "url": "/sample-react-app/static/media/arkham.7c58c781.jpg"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/sample-react-app/static/media/brand-icons.e8c322de.woff2"
+  },
+  {
+    "revision": "73df603ce0c24381262714ce7e16cb6d",
+    "url": "/sample-react-app/static/media/daily_planet.73df603c.webp"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
@@ -94,5 +102,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/sample-react-app/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "042b935b69a645cdf2ca18d2e64a4187",
+    "url": "/sample-react-app/static/media/wayne_enterprise.042b935b.jpg"
   }
 ]);
